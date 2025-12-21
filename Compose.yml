@@ -1,0 +1,8 @@
+---
+version: "3"
+services:
+  Onlineapp:
+    container_name: cont1
+    build: ./
+    ports:
+      - "7893:8081"
